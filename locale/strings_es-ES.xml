@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
     <string name="about_illustrations_by">Ilustraciones de Elena Pilone</string>
-    <string name="about_privacy">Politica de privacidad</string>
+    <string name="about_privacy">Polìtica de privacidad</string>
     <string name="about_support_developer">Ayuda al desarrolador</string>
     <string name="about_used_libraries">Librerias utilizadas</string>
 
@@ -22,7 +22,8 @@
     <string name="activity_label_icon_selector">Seleccionar icono</string>
     <string name="activity_label_settings">Configuración</string>
     <string name="activity_label_support">Soporte</string>
-    <string name="activity_title_modify_tile">Modificar título</string>
+    <string name="activity_title_edit_tile">Modificar título</string>
+    <string name="activity_title_edit_broker">Modificar broker</string>
 
     <string name="app_name">MQTT Dashboard</string>
 
@@ -37,24 +38,23 @@
     <string name="checkbox_retain_message">Retener mensaje</string>
 
     <string name="chooser_no_mail_client">No hay una aplicacion de email instalada.</string>
-    <string name="chooser_send_mail">Enviar email...</string>
+    <string name="chooser_send_mail">Enviar email&#8230;</string>
 
     <string name="dialog_body_confirm">¿Quieres enviar el email %s a %s?</string>
-    <string name="dialog_confirm_delete">¿Borrar titulo? No podrás deshacer esta acción.</string>
+    <string name="dialog_confirm_delete_tile">¿Borrar titulo? No podrás deshacer esta acción.</string>
+    <string name="dialog_title_delete_broker">¿Borrar broker? No podrás deshacer esta acción.</string>
     <string name="dialog_confirm_send">Enviar confirmación</string>
     <string name="dialog_discard_changes_title">¿Descartar cambios?</string>
     <string name="dialog_donation_error">Ops. algo ha ido mal</string>
     <string name="dialog_donation_thank">Gracias!</string>
     <string name="dialog_no_available_backup_summary">No tienes backups para restaurar</string>
     <string name="dialog_no_available_backup_title">No backups</string>
-    <string name="dialog_restore_database_body">La base de datos será borrada. No podrás deshacer esta acción.</string>
+    <string name="dialog_restore_database_body">La base de datos será sobreescrita. No podrás deshacer esta acción.</string>
     <string name="dialog_restore_database_title">¿Restaurar la base de datos?</string>
     <string name="dialog_title_confirm">Por favor, confirmar</string>
     <string name="dialog_title_send_text">Enviar texto</string>
-    <string name="dialog_wipe_database_body">La base de datos será sobreescrita. No podrás deshacer esta acción.</string>
-    <string name="dialog_wipe_database_title">¿Vaciar la base de datos?</string>
 
-    <string name="donation_body">Si te gusta la aplicación y quieres agradecerlo al desarrollador, ¡este es el lugar adecuado para ti!\n\nDesarrollar una aplicación como esta requiere mucho tiempo y muchas tazas de cafe, si decides ayudarme será genial!\n\nElegi alguna de estas opciones:</string>
+    <string name="donation_body">Si te gusta la aplicación y quieres agradecerlo al desarrollador, ¡este es el lugar adecuado para ti!\n\nDesarrollar una aplicación como esta requiere mucho tiempo y muchas tazas de cafè, si decides ayudarme será genial!\n\nElegi alguna de estas opciones:</string>
     <string name="donation_options">¿No quieres donar? Siempre me puedes ayudar traduciendo esta aplicación a tu lenguaje.</string>
 
     <string name="event_connected">Conectado a %s</string>
@@ -73,8 +73,8 @@
     <string name="hint_broker_client_id">ID de cliente único</string>
     <string name="hint_broker_password">password</string>
     <string name="hint_broker_username">usuario</string>
-    <string name="hint_maximum">maximo</string>
-    <string name="hint_minimum">minimo</string>
+    <string name="hint_maximum">màximo</string>
+    <string name="hint_minimum">mìnimo</string>
     <string name="hint_name">Nombre</string>
     <string name="hint_off">valor off</string>
     <string name="hint_on">valor on</string>
@@ -95,10 +95,10 @@
     <string name="label_broker_username">Usuario</string>
     <string name="label_client_id">ID de cliente</string>
     <string name="label_connectivity">Conectividad</string>
-    <string name="label_database_empty">La base de datos está vacia.\nAñade un nuevo título.</string>
+    <string name="label_database_tiles_empty">La base de datos está vacia.\nAñade un nuevo título.</string>
     <string name="label_email_me">Enviame un email</string>
     <string name="label_email_me_content">Si quieres contribuir al desarrollo - traduciendo la aplicación - o necesitas reportar un error, contacta conmigo.</string>
-    <string name="label_events_log">Log de eventos</string>
+    <string name="title_logs">Log de eventos</string>
     <string name="label_fallback_icon">Icono de retroceder</string>
     <string name="label_help_text_pre_postfix">(estos valores no pueden ser enviados)</string>
     <string name="label_json_warning">Extrae el payload y la fechahora (milisegundos) del mensaje JSON. Visita <a href="https://github.com/json-path/JsonPath">este link</a> para mejores instrucciones.</string>
@@ -106,7 +106,7 @@
     <string name="label_map">Mapa entre</string>
     <string name="label_message_retention">Retención de mensajes</string>
     <string name="label_no_broker_connection">Conexión fallida</string>
-    <string name="label_no_pairs">Aun no hay parejas aqui</string>
+    <string name="label_no_pairs">Aun no hay parejas aquì</string>
     <string name="label_paint_as_input">Dibujar de acuerdo a la entrada</string>
     <string name="label_pairs">Parejas</string>
     <string name="label_pairs_add_new">Añadir una nueva pareja</string>
@@ -117,16 +117,15 @@
     <string name="label_service">Servicio</string>
     <string name="label_service_quality">Calidad de servicio</string>
     <string name="label_tile_specific_settings">Configuración del título</string>
+    <string name="label_time">Hora</string>
     <string name="label_timestamp_path">Path a la fechahora</string>
     <string name="label_topic_warning">Atención. El estado solo se actualiza con los mensajes entrantes en el tópico suscrito; si tienes planeado usar tópico a publicar diferente, el estado no será actualizado probablemente</string>
     <string name="label_unknown_tile">Título desconocido</string>
 
-    <string name="modify">Modificar</string>
+    <string name="action_edit">Modificar</string>
 
-    <string name="nav_title_broker">Broker</string>
-    <string name="nav_title_dashboard">Panel de control</string>
-    <string name="nav_title_logs">Log de eventos</string>
-
+    <string name="title_brokers">Broker</string>
+    
     <string name="pref_backup_dialog_title">Nombre del backup</string>
     <string name="pref_backup_title">Backup</string>
     <string name="pref_category_backup">Backup y restaurar</string>
@@ -150,11 +149,34 @@
     <string name="tile_type_time">Fecha y hora</string>
     <string name="tile_type_toggle">Cambiar</string>
 
-    <string name="title_new_tile">Nuevo título</string>
-
     <string name="toast_backup_done">Backup creado correctamente en %s</string>
     <string name="toast_database_wiped">Base de datos vaciada correctamente</string>
     <string name="toast_missing_fields">Algunos campos están vacios</string>
     <string name="toast_restore_done">Base de datos restaurada correctamente</string>
     <string name="toast_restore_error">No es posible restaurar la base de datos: la versión es mayor.</string>
+
+    <string name="action_rearrange">Rearrange</string>
+    <string name="action_unlock">Unlock</string>
+    <string name="button_manage_brokers">Manage brokers</string>
+    <string name="dialog_body_delete_broker">The broker and the related tiles will be deleted. This action cannot be undone.</string>
+    <string name="dialog_body_pro_feature">Please consider unlocking the \"pro\" version to be able to use multiple brokers.</string>
+    <string name="dialog_database_broker_empty">Database is empty.\nAdd a new broker.</string>
+    <string name="dialog_title_pro_feature">\"Pro\" feature</string>
+    <string name="feature_missing_will_add">This feature will be added soon</string>
+    <string name="hint_broker_name">Broker name</string>
+    <string name="label_already_pro">You\'re pro &#128525;</string>
+    <string name="label_chart_view">Chart View</string>
+    <string name="label_database_tiles_empty_body">Seems like there is nothing we can show to you. Begin by adding a new tile!</string>
+    <string name="label_date">Date</string>
+    <string name="label_donation_pro_features">The \"pro\" version enables you to use multiple brokers, and supports the development of the app, allowing me to keep adding cool stuff to it.</string>
+    <string name="label_donation_unlock_pro">Unlock \"pro\" version</string>
+    <string name="label_no_broker">No Brokers, yet</string>
+    <string name="label_no_broker_body">Start adding brokers by tapping the menu icon below</string>
+    <string name="label_no_connection">Ops, no connection</string>
+    <string name="label_no_connection_body">Try checking your broker configurations or your device connectivity</string>
+    <string name="label_use_clean_connection">Use clean connection</string>
+    <string name="menu_unlock_pro">Unlock pro &#128170;</string>
+    <string name="pref_show_sent_confirmation">Show confirmation when message is sent</string>
+    <string name="title_tiles">Tiles</string>
+    <string name="toast_backup_error">Could\'t create the backup file. The error might be due to void backup name.\nError code: %d</string>
 </resources>
