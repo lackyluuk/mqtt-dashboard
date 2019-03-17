@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="about_illustrations_by">Illustrations by Elena Pilone</string>
+    <string name="about_privacy">Privacy disclaimer</string>
+    <string name="about_support_developer">Support the developer</string>
+    <string name="about_translators">Translators</string>
+    <string name="about_used_libraries">Used libraries</string>
+
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_help">Help</string>
+    <string name="action_ok">OK</string>
+    <string name="action_rearrange">Rearrange</string>
+    <string name="action_restore">Restore</string>
+    <string name="action_save">Save</string>
+    <string name="action_send">Send</string>
+    <string name="action_unlock">Unlock</string>
+    <string name="action_wipe">Wipe</string>
+
+    <string name="activity_label_about">About</string>
+    <string name="activity_label_add_tile">Add tile</string>
+    <string name="activity_label_donation">Donation</string>
+    <string name="activity_label_help">Help</string>
+    <string name="activity_label_icon_selector">Select icon</string>
+    <string name="activity_label_settings">Settings</string>
+    <string name="activity_label_support">Support</string>
+    <string name="activity_title_edit_broker">Edit broker</string>
+    <string name="activity_title_edit_tile">Edit tile</string>
+
+    <string name="button_clear_logs">Clear logs</string>
+    <string name="button_manage_brokers">Manage brokers</string>
+    <string name="button_retry">Retry</string>
+
+    <string name="checkbox_confirm_publishing">Confirm publishing</string>
+    <string name="checkbox_enable_publishing">Enable publishing</string>
+    <string name="checkbox_multiselect_show_payload">Show payload in dialog</string>
+    <string name="checkbox_paint_card_background">Paint card background</string>
+    <string name="checkbox_payload_json">Payload is JSON</string>
+    <string name="checkbox_retain_message">Retain message</string>
+
+    <string name="chooser_no_mail_client">There are no email clients installed.</string>
+    <string name="chooser_send_mail">Send mail…</string>
+
+    <string name="dialog_body_confirm">Would you like to send %s to %s?</string>
+    <string name="dialog_body_delete_broker">The broker and the related tiles will be deleted. This action cannot be undone.</string>
+    <string name="dialog_body_pro_feature">Please consider unlocking the \"pro\" version to be able to use multiple brokers.</string>
+    <string name="dialog_confirm_delete_tile">Delete tile? The action cannot be undone.</string>
+    <string name="dialog_confirm_send">Send message?</string>
+    <string name="dialog_database_broker_empty">Database is empty.\nAdd a new broker.</string>
+    <string name="dialog_discard_changes_title">Discard changes?</string>
+    <string name="dialog_donation_error">Ops. Something went wrong.</string>
+    <string name="dialog_donation_thank">Thank You!</string>
+    <string name="dialog_no_available_backup_summary">You have no backups to be restored</string>
+    <string name="dialog_no_available_backup_title">No backups</string>
+    <string name="dialog_restore_database_body">The current database will be overwritten. This action cannot be undone.</string>
+    <string name="dialog_restore_database_title">Restore database?</string>
+    <string name="dialog_title_confirm">Please confirm</string>
+    <string name="dialog_title_delete_broker">Delete broker?</string>
+    <string name="dialog_title_pro_feature">\"Pro\" feature</string>
+    <string name="dialog_title_send_text">Send text</string>
+
+    <string name="donation_body">If you like this app and want to show your love to the developer, this is the right place for you!\n\nCreating an app like this takes a lot of time and many cups of coffee, so if you decide to support me that would be a great thing!\n\nHere are a few option you can choose from:</string>
+    <string name="donation_options">Don\'t feel like donating? You can always help me translating this app to your language.</string>
+
+    <string name="event_connected">Connected to %s</string>
+    <string name="event_connection_failure">Failed to connect to %s</string>
+    <string name="event_connection_lost">The connection was lost</string>
+    <string name="event_message_published">Published %s in %s</string>
+    <string name="event_message_sent">Received %s in topic %s</string>
+    <string name="event_reconnected">Reconnected to %s</string>
+    <string name="event_subscribed">Subscribed to %s</string>
+    <string name="event_subscription_failure">Failed to subscribe to %s</string>
+    <string name="event_unsubscribed">Unsubscribed from %s</string>
+    <string name="event_unsubscription_failure">Failed to unsubscribe from %s</string>
+
+    <string name="feature_missing_will_add">This feature will be added soon</string>
+
+    <string name="help_time_output_format">Output format: \n- Time: hh:mm, 24h format \n- Date: dd/mm/yyyy</string>
+
+    <string name="hint_broker_client_id">unique client ID</string>
+    <string name="hint_broker_name">Broker name</string>
+    <string name="hint_broker_password">password</string>
+    <string name="hint_broker_username">username</string>
+    <string name="hint_maximum">max</string>
+    <string name="hint_minimum">min</string>
+    <string name="hint_name">Tile name</string>
+    <string name="hint_off">off value</string>
+    <string name="hint_on">on value</string>
+    <string name="hint_on_click">send value</string>
+    <string name="hint_postfix">postfix</string>
+    <string name="hint_prefix">prefix</string>
+    <string name="hint_publish_topic">Publish topic</string>
+    <string name="hint_subscribe_topic">Subscribe topic</string>
+
+    <string name="image_selection_label_color">Colors</string>
+    <string name="image_selection_label_icons">Icons</string>
+
+    <string name="label_already_pro">You\'re pro &#128525;</string>
+    <string name="label_broker_address">Address</string>
+    <string name="label_broker_authentication">Authentication</string>
+    <string name="label_broker_blank_auth">(leave fields blank if the broker is unprotected)</string>
+    <string name="label_broker_password">Password</string>
+    <string name="label_broker_port">Port</string>
+    <string name="label_broker_protection">Broker protection</string>
+    <string name="label_broker_username">User name</string>
+    <string name="label_chart_view">Chart View</string>
+    <string name="label_client_id">Client ID</string>
+    <string name="label_connectivity">Connectivity</string>
+    <string name="label_database_tiles_empty">Ehi, nothing here</string>
+    <string name="label_database_tiles_empty_body">Seems like there is nothing we can show to you. Begin by adding a new tile!</string>
+    <string name="label_date">Date</string>
+    <string name="label_donation_pro_features">The \"pro\" version enables you to use multiple brokers, and supports the development of the app, allowing me to keep adding cool stuff to it.</string>
+    <string name="label_donation_unlock_pro">Unlock \"pro\" version</string>
+    <string name="label_email_me">Email me</string>
+    <string name="label_email_me_content">If you want to contribute to the development - by translating the app - or need to report an error, reach me out.</string>
+    <string name="label_fallback_icon">Fallback icon</string>
+    <string name="label_help_text_pre_postfix">(these values won\'t be sent)</string>
+    <string name="label_json_warning">Extracts payload and timestamp (millis from epoch) from the Json message. Visit <a href="https://github.com/json-path/JsonPath">this link</a> for in-depth instructions.</string>
+    <string name="label_load_changes">Load changes</string>
+    <string name="label_map">Map between</string>
+    <string name="label_message_retention">Message retention</string>
+    <string name="label_no_broker">No Brokers, yet</string>
+    <string name="label_no_broker_body">Start adding brokers by tapping the menu icon below</string>
+    <string name="label_no_broker_connection">Connection failed</string>
+    <string name="label_no_connection">Ops, no connection</string>
+    <string name="label_no_connection_body">Try checking your broker configurations or your device connectivity</string>
+    <string name="label_no_pairs">No pairs here yet</string>
+    <string name="label_paint_as_input">Paint accordingly to input</string>
+    <string name="label_pairs">Pairs</string>
+    <string name="label_pairs_add_new">Add new pair</string>
+    <string name="label_payload_path">Payload path</string>
+    <string name="label_payload_type">Payload type</string>
+    <string name="label_plot_error">Message is void or corrupted</string>
+    <string name="label_send_value">Send value</string>
+    <string name="label_service">Service</string>
+    <string name="label_service_quality">Service quality</string>
+    <string name="label_tile_specific_settings">Tile-specific settings</string>
+    <string name="label_time">Time</string>
+    <string name="label_timestamp_path">Timestamp path</string>
+    <string name="label_topic_warning">Warning. The tile status gets updated only on incoming messages on the subscribe topic; if you plan to use a different publish topic the tile probably won\'t be updated.</string>
+    <string name="label_unknown_tile">Unknown tile</string>
+    <string name="label_use_clean_connection">Use clean connection</string>
+
+    <string name="menu_unlock_pro">Unlock pro &#128170;</string>
+
+    <string name="pref_backup_dialog_title">Backup name</string>
+    <string name="pref_backup_title">Backup</string>
+    <string name="pref_category_backup">Backup &amp; restore</string>
+    <string name="pref_category_general">General</string>
+    <string name="pref_restore_dialog_title">Select backup to restore</string>
+    <string name="pref_restore_title">Restore</string>
+    <string name="pref_show_sent_confirmation">Show confirmation when message is sent</string>
+    <string name="pref_summary_restore">Restore previous backup from /MqttDash folder</string>
+    <string name="pref_title_backup">Backup</string>
+    <string name="pref_title_restore">Restore</string>
+    <string name="pref_title_reverse_log">Reverse log</string>
+    <string name="pref_wipe_database">Wipe database</string>
+
+    <string name="selector_more_tiles_coming">… more coming soon</string>
+
+    <string name="tile_type_button">Button</string>
+    <string name="tile_type_chart">Line chart</string>
+    <string name="tile_type_color">Color</string>
+    <string name="tile_type_multi_select">Multi-select</string>
+    <string name="tile_type_progress">Progress</string>
+    <string name="tile_type_text">Text</string>
+    <string name="tile_type_time">Date &amp; time</string>
+    <string name="tile_type_toggle">Toggle</string>
+
+    <string name="title_brokers">Brokers</string>
+    <string name="title_logs">Events log</string>
+    <string name="title_tiles">Tiles</string>
+
+    <string name="toast_backup_done">Backup successfully created in %s</string>
+    <string name="toast_backup_error">Could\'t create the backup file. The error might be due to void backup name.\nError code: %d</string>
+    <string name="toast_database_wiped">Database successfully wiped</string>
+    <string name="toast_missing_fields">Some fields are empty</string>
+    <string name="toast_restore_done">Database successfully restored</string>
+    <string name="toast_restore_error">Cannot restore the database: it could be corrupted or from a previous, no more supported version.\nError code: %d</string>
+</resources>
