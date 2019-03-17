@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="about_illustrations_by">Illustrations de Elena Pilone</string>
+    <string name="about_privacy">Politique de confidentialité</string>
+    <string name="about_support_developer">Aider le développeur</string>
+    <string name="about_translators">Traducteurs</string>
+    <string name="about_used_libraries">Bibliothèques utilisées</string>
+
+    <string name="action_cancel">Annuler</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_discard">Annuler</string>
+    <string name="action_edit">Éditer</string>
+    <string name="action_help">Aide</string>
+    <string name="action_ok">OK</string>
+    <string name="action_rearrange">Réordonner</string>
+    <string name="action_restore">Restaurer</string>
+    <string name="action_save">Enregistrer</string>
+    <string name="action_send">Envoyer</string>
+    <string name="action_unlock">Déverrouiller</string>
+    <string name="action_wipe">Nettoyer</string>
+
+    <string name="activity_label_about">À propos</string>
+    <string name="activity_label_add_tile">Ajouter une tuile</string>
+    <string name="activity_label_donation">Don</string>
+    <string name="activity_label_help">Aide</string>
+    <string name="activity_label_icon_selector">Sélectionner un icon</string>
+    <string name="activity_label_settings">Paramètres</string>
+    <string name="activity_label_support">Support</string>
+    <string name="activity_title_edit_broker">Modifier le broker</string>
+    <string name="activity_title_edit_tile">Modifier la tuile</string>
+
+    <string name="button_clear_logs">Vider les journaux</string>
+    <string name="button_manage_brokers">Gérer les brokers</string>
+    <string name="button_retry">Réessayer</string>
+
+    <string name="checkbox_confirm_publishing">Confirmer la publication</string>
+    <string name="checkbox_enable_publishing">Activer la publication</string>
+    <string name="checkbox_multiselect_show_payload">Afficher la payload dans le dialogue</string>
+    <string name="checkbox_paint_card_background">Colorer le fond de la tuile</string>
+    <string name="checkbox_payload_json">Payload en JSON</string>
+    <string name="checkbox_retain_message">Retenir le message</string>
+
+    <string name="chooser_no_mail_client">Il n\'y a aucun client mail installé.</string>
+    <string name="chooser_send_mail">Envoyer le mail…</string>
+
+    <string name="dialog_body_confirm">Voulez-vous envoyer %s sur %s?</string>
+    <string name="dialog_body_delete_broker">Le broker et ses tuiles vont être supprimés. Cette action ne peut être annulée.</string>
+    <string name="dialog_body_pro_feature">Vous devez débloquer la version \"pro\" pour pouvoir utiliser plusieurs brokers.</string>
+    <string name="dialog_confirm_delete_tile">Supprimer la tuile ? Cette action ne peut être annulée.</string>
+    <string name="dialog_confirm_send">Envoyer le message ?</string>
+    <string name="dialog_database_broker_empty">La base de donnée est vide.\nAjoutez un nouveau broker.</string>
+    <string name="dialog_discard_changes_title">Annuler les changements ?</string>
+    <string name="dialog_donation_error">Oups. Quelque chose s\'est mal passé.</string>
+    <string name="dialog_donation_thank">Merci !</string>
+    <string name="dialog_no_available_backup_summary">Vous n\'avez aucune sauvegarde à restaurer</string>
+    <string name="dialog_no_available_backup_title">Aucune sauvegarde</string>
+    <string name="dialog_restore_database_body">La base de données actuelle sera remplacée. Cette action ne peut être annulée.</string>
+    <string name="dialog_restore_database_title">Restaurer la base de données ?</string>
+    <string name="dialog_title_confirm">Merci de confirmer</string>
+    <string name="dialog_title_delete_broker">Supprimer le broker ?</string>
+    <string name="dialog_title_pro_feature">Fonctionnalité \"pro\"</string>
+    <string name="dialog_title_send_text">Envoyer du texte</string>
+
+    <string name="donation_body">Si vous aimez cette application et que vous voulez le montrer au développeur vous êtes au bon endroit !\n\n Créer un application comme celle-ci demande beaucoup de temps et de café. Donc, si vous décidez de m\'aider ce serait une bonne idée !\n\nVoici quelques options à votre disposition :</string>
+    <string name="donation_options">Vous ne voulez pas donne ? Vous pouvez toujours m\'aider à traduire l\'application dans votre langue.</string>
+
+    <string name="event_connected">Connecté à %s</string>
+    <string name="event_connection_failure">Échec de la connexion à %s</string>
+    <string name="event_connection_lost">La connexion à été perdue</string>
+    <string name="event_message_published">Publié %s dans %s</string>
+    <string name="event_message_sent">Reçu %s depuis %s</string>
+    <string name="event_reconnected">Reconnecté à %s</string>
+    <string name="event_subscribed">Abonné à %s</string>
+    <string name="event_subscription_failure">Échec d\'abonnement à %s</string>
+    <string name="event_unsubscribed">Désabonné de %s</string>
+    <string name="event_unsubscription_failure">Échec de désabonnement de %s</string>
+
+    <string name="feature_missing_will_add">Cette fonctionnalité sera disponible prochainement</string>
+
+    <string name="help_time_output_format">Format de sortie: \n- Heure : hh:mm, format 24h \n- Date : jj/mm/aaaa</string>
+
+    <string name="hint_broker_client_id">Identifiant unique du client</string>
+    <string name="hint_broker_name">Nom du broker</string>
+    <string name="hint_broker_password">mot de passe</string>
+    <string name="hint_broker_username">nom d\'utilisateur</string>
+    <string name="hint_maximum">max</string>
+    <string name="hint_minimum">min</string>
+    <string name="hint_name">Nom de la tuile</string>
+    <string name="hint_off">valeur off</string>
+    <string name="hint_on">valeur on</string>
+    <string name="hint_on_click">envoyer la valeur</string>
+    <string name="hint_postfix">suffixe</string>
+    <string name="hint_prefix">préfixe</string>
+    <string name="hint_publish_topic">Topic de publication</string>
+    <string name="hint_subscribe_topic">Topic d\'abonnement</string>
+
+    <string name="image_selection_label_color">Couleurs</string>
+    <string name="image_selection_label_icons">Icônes</string>
+
+    <string name="label_already_pro">Vous êtes pro &#128525;</string>
+    <string name="label_broker_address">Adresse</string>
+    <string name="label_broker_authentication">Authentification</string>
+    <string name="label_broker_blank_auth">(laisser vide si le broker n\'est pas protégé)</string>
+    <string name="label_broker_password">Mot de passe</string>
+    <string name="label_broker_port">Port</string>
+    <string name="label_broker_protection">Broker protégé</string>
+    <string name="label_broker_username">Nom d\'utilisateur</string>
+    <string name="label_chart_view">Vue graphique</string>
+    <string name="label_client_id">Identifiant du client</string>
+    <string name="label_connectivity">Connectivité</string>
+    <string name="label_database_tiles_empty">Ehi, il n\'y a rien ici</string>
+    <string name="label_database_tiles_empty_body">Il semblerait que nous n\'avons rien à vous afficher. Commencez par ajouter une nouvelle tuile !</string>
+    <string name="label_date">Date</string>
+    <string name="label_donation_pro_features">La version \"pro\" vous permet d\'utiliser plusieurs brokers, aide le développement de l\'application et m\'aide à continuer d\'y ajouter de nouvelles fonctionnalités.</string>
+    <string name="label_donation_unlock_pro">Débloquer la version \"pro\"</string>
+    <string name="label_email_me">M\'envoyer un email</string>
+    <string name="label_email_me_content">Si vous voulez contribuer au développement, en traduisant l\'application, ou signaler une erreur, contactez-moi.</string>
+    <string name="label_fallback_icon">Icône par défaut</string>
+    <string name="label_help_text_pre_postfix">(ces valeurs ne seront pas envoyées)</string>
+    <string name="label_json_warning">Extraire la payload et le timestamp (millis depuis l\'époque) du message Json. Visitez <a href="https://github.com/json-path/JsonPath">ce lien</a> pour les instructions détaillées.</string>
+    <string name="label_load_changes">Charger les changements</string>
+    <string name="label_map">Intervalle entre</string>
+    <string name="label_message_retention">Retenue du message</string>
+    <string name="label_no_broker">Aucun broker, pour l\'instant</string>
+    <string name="label_no_broker_body">Ajoutez des brokers avec l\'icône menu ci-dessous</string>
+    <string name="label_no_broker_connection">Échec de connexion</string>
+    <string name="label_no_connection">Oups, aucune connexion</string>
+    <string name="label_no_connection_body">Vérifiez le connexion avec le broker et votre connexion Internet</string>
+    <string name="label_no_pairs">Aucun pair ici</string>
+    <string name="label_paint_as_input">Colorer en fonction de l\'entrée</string>
+    <string name="label_pairs">Pairs</string>
+    <string name="label_pairs_add_new">Ajouter un nouveau pair</string>
+    <string name="label_payload_path">Chemin de la payload</string>
+    <string name="label_payload_type">Type de payload</string>
+    <string name="label_plot_error">Le message est vide ou corrompu</string>
+    <string name="label_send_value">Envoyer la valeur</string>
+    <string name="label_service">Service</string>
+    <string name="label_service_quality">Qualité de service</string>
+    <string name="label_tile_specific_settings">Paramètres spécifiques à la tuile</string>
+    <string name="label_time">Temps</string>
+    <string name="label_timestamp_path">Chemin du timestamp</string>
+    <string name="label_topic_warning">Attention. Le tuile est mise à jour uniquement à l\'arrivée de message depuis le topic d\'abonnement ; si vous utilisez un topic d\'abonnement différent, la tuile ne sera pas mise à jour.</string>
+    <string name="label_unknown_tile">Tuile inconnue</string>
+    <string name="label_use_clean_connection">Utiliser une connexion propre</string>
+
+    <string name="menu_unlock_pro">Débloquer pro &#128170;</string>
+
+    <string name="pref_backup_dialog_title">Nom de la sauvegarde</string>
+    <string name="pref_backup_title">Sauvegarde</string>
+    <string name="pref_category_backup">Sauvegarde et restauration</string>
+    <string name="pref_category_general">Général</string>
+    <string name="pref_restore_dialog_title">Sélectionnez une sauvegarde à restaurer</string>
+    <string name="pref_restore_title">Restaurer</string>
+    <string name="pref_show_sent_confirmation">Afficher une confirmation à l\'envoi du message</string>
+    <string name="pref_summary_restore">Restaurer une sauvegarde depuis le dossier /MqttDash</string>
+    <string name="pref_title_backup">Sauvegarde</string>
+    <string name="pref_title_restore">Restauration</string>
+    <string name="pref_title_reverse_log">Inverser le journal</string>
+    <string name="pref_wipe_database">Vider la base de données</string>
+
+    <string name="selector_more_tiles_coming">… plus bientôt</string>
+
+    <string name="tile_type_button">Bouton</string>
+    <string name="tile_type_chart">Graphique linéaire</string>
+    <string name="tile_type_color">Couleur</string>
+    <string name="tile_type_multi_select">Choix multiples</string>
+    <string name="tile_type_progress">Progrès</string>
+    <string name="tile_type_text">Texte</string>
+    <string name="tile_type_time">Date &amp; heure</string>
+    <string name="tile_type_toggle">Marche / Arrêt</string>
+
+    <string name="title_brokers">Brokers</string>
+    <string name="title_logs">Journal d\'événements</string>
+    <string name="title_tiles">Tuiles</string>
+
+    <string name="toast_backup_done">Sauvegarde créée dans %s</string>
+    <string name="toast_backup_error">Impossible de créer le fichier de sauvegarde. L\'erreur peut être due à un nom de sauvegarde vide.\nCode d\'erreur : %d</string>
+    <string name="toast_database_wiped">Base de donnée vidée</string>
+    <string name="toast_missing_fields">Des champs sont vides</string>
+    <string name="toast_restore_done">Base de donnée restaurée</string>
+    <string name="toast_restore_error">Impossible de restaurer la base de données : elle peut être corrompue ou générée depuis une ancienne version non supportée.\Code d\'erreur : %d</string>
+</resources>
